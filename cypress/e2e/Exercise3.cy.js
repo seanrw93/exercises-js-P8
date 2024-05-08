@@ -1,9 +1,9 @@
-import calculateAverage from "../../Exercice3/index.js";
+import calculateAverage from "../../Exercise3/index.js";
 console.log(calculateAverage([5, 10, 15])) // retourne 10
 console.log(calculateAverage([10, 20, 30, 20])) // retourne 20
 console.log(calculateAverage()) // No numbers to calculate average
 
-describe('Exercice 3 Validation', () => {
+describe('Exercise 3 Validation', () => {
   it('Returns 10 on calculateAverage([5, 10, 15]', ()=>{
     expect(calculateAverage([5, 10, 15])).to.eq(10)
   })

@@ -1,6 +1,6 @@
-import pairNumbers from "../../Exercice1/index";
+import pairNumbers from "../../Exercise1/index";
 
-describe('Exercice 1 Validation', () => {
+describe('Exercise 1 Validation', () => {
   it('Returns all 5 pair numbers from 1 to 10', ()=>{
     const numbers = pairNumbers(1,10);
     const arrayOfNumbers = numbers.split(',')

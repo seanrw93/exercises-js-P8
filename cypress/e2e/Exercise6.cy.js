@@ -1,8 +1,8 @@
-describe('Validations Exercice 6: ', () => {
+describe('Exercise 6 Validations: ', () => {
     beforeEach(() => {
-        cy.visit("/Exercice6");
+        cy.visit("/Exercise6");
     })
-    describe('Exercice 6 Validation', () => {
+    describe('Exercise 6 Validation', () => {
         it('Returns 8 on calculate 5 + 3', () => {
             cy.contains('5').click()
             cy.contains('+').click()

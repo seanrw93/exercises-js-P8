@@ -1,8 +1,8 @@
-describe('Validations Exercice 7: ', () => {
+describe('Exercise 7 Validations: ', () => {
     beforeEach(() => {
-        cy.visit("/Exercice7");
+        cy.visit("/Exercise7");
     })
-    describe('Exercice 6 Validation', () => {
+    describe('Exercise 6 Validation', () => {
         it('Returns \'1010\' on converting 10', () => {
             cy.get("input").type('10');
             cy.contains('Convertir').click()
@@ -10,7 +10,7 @@ describe('Validations Exercice 7: ', () => {
         })
         it('Returns \'11\' on converting 3', () => {
             cy.get("input").type('3');
-            cy.contains('Convertir').click()
+            cy.contains('Convert').click()
             cy.get('#binaryResult').should('not.be.empty').and('contain.text', '11');
         })
         it('Returns nothing on converting non number', () => {
@@ -20,7 +20,7 @@ describe('Validations Exercice 7: ', () => {
         })
         it('BONUS:: Returns nothing on converting non number like 123def', () => {
             cy.get("input").type('123def');
-            cy.contains('Convertir').click()
+            cy.contains('Convert').click()
             cy.get('#binaryResult').should('be.empty')
         })
     })

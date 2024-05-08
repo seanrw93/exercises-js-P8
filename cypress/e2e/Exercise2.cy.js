@@ -1,6 +1,6 @@
-import calculate from "../../Exercice2/index.js";
+import calculate from "../../Exercise2/index.js";
 
-describe('Exercice 2 Validation', () => {
+describe('Exercise 2 Validation', () => {
   it('Returns 8 on calculate 5 + 3', ()=>{
     expect(calculate(5,3,'+')).to.eq(8)
   })

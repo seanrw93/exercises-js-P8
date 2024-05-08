@@ -1,3 +1,3 @@
-//votre code ici
+//your code here
 
 export default pairNumbers
