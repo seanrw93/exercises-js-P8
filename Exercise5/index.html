@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Page without accessibility</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Page</title>
 </head>
 <body>
-<h1>Page Title</h1>
-<p>This is a text paragraph</p>
 
-<!-- Form without filed labels -->
+<h1>Page Title</h1>
+<p>This is a text paragraph.</p>
+
+<!-- Form with field labels -->
 <form>
+    <label for="name">Name:</label>
     <input id="name" type="text" placeholder="Enter your name">
-    <input id="email" type="email" placeholder="Enter you email e-mail">
+    
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email">
+    
     <button type="submit">Send</button>
 </form>
 
-<!-- Image without alt attribute -->
-<img src="assets/image.png" height=250>
+<!-- Image with alt attribute -->
+<img src="assets/image.png" height="250" alt="A descriptive text about the image">
 
-<!-- link without descriptive text -->
-<a href="#">Click here</a>
+<!-- Link with descriptive text -->
+<a href="https://example.com">Learn more about our services</a>
+
 </body>
 </html>
